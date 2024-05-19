@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'contactPage.dart';
 import 'meteoPage.dart';
+import 'chatbot.dart';
+import 'maskDetection.dart';  // Assurez-vous que ce fichier est correctement importé
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +33,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -80,14 +81,20 @@ class _MyHomePageState extends State<MyHomePage> {
               leading: const Icon(Icons.chat),
               title: const Text('ChatBot'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ChatBot()),
+                );
               },
             ),
             ListTile(
               leading: const Icon(Icons.camera),
               title: const Text('Mask Detection'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MaskDetection()),
+                );
               },
             ),
           ],
@@ -100,10 +107,17 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Image.asset('assets/myavatar.png'),
             const SizedBox(height: 20),
-            const Text('Welcome!',style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,),
-          ),
+            const Text(
+              'Welcome!',
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
             const SizedBox(height: 10),
-            const Text('Join Us and Enjoy different functionalities in the app !',),
+            const Text(
+              'Join Us and Enjoy different functionalities in the app!',
+            ),
             const SizedBox(height: 20),
           ],
         ),
