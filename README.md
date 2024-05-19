@@ -81,23 +81,23 @@ The mask detection feature uses TensorFlow Lite to identify whether a person is 
 ## Screenshots
 
 ### Home Page
-![Home Page](images/homePage.jpg)
+<img src="images/homePage.jpg" alt="Home Page" width="300"/>
 
 ### Navigation Drawer
-![nav Page](images/Menu.jpg)
+<img src="images/Menu.jpg" alt="Navigation Drawer" width="300"/>
 
 ### Contact Page
-![Contact Page](images/Contact.jpg)
+<img src="images/Contact.jpg" alt="Contact Page" width="300"/>
 
 ### Weather Page
-![Home Page](images/weatherTest1.jpg)
-![Home Page](images/weatherTest2.jpg)
+<img src="images/weatherTest1.jpg" alt="Weather Page" width="300"/>
+<img src="images/weatherTest2.jpg" alt="Weather Page" width="300"/>
 
 ### Chatbot Page
-![chatbot Page](images/Chatbot.jpg)
+<img src="images/Chatbot.jpg" alt="Chatbot Page" width="300"/>
 
 ### Mask Detection Page
-![maskDetection Page](images/maskDetection.jpg)
+<img src="images/maskDetection.jpg" alt="Mask Detection Page" width="300"/>
 
 
 ## Conclusion
