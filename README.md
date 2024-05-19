@@ -30,8 +30,7 @@ To run this application, you need to have Flutter installed on your machine. Fol
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd tp_synthese_flutter
+    git clone https://github.com/NouhaylaMouakkal/TP-synthese-Flutter
     ```
 
 2. Install dependencies:
@@ -82,19 +81,24 @@ The mask detection feature uses TensorFlow Lite to identify whether a person is 
 ## Screenshots
 
 ### Home Page
-![Home Page](path_to_home_page_screenshot)
+![Home Page](images/homePage.jpg)
 
 ### Navigation Drawer
-![Navigation Drawer](path_to_navigation_drawer_screenshot)
+![nav Page](images/Menu.jpg)
 
 ### Contact Page
-![Contact Page](path_to_contact_page_screenshot)
+![Contact Page](images/Contact.jpg)
 
-## Future Improvements
+### Weather Page
+![Home Page](images/weatherTest1.jpg)
+![Home Page](images/weatherTest2.jpg)
 
-- **Weather Page**: Implement API integration for real-time weather updates.
-- **ChatBot Page**: Integrate a chatbot API for interactive conversations.
-- **Mask Detection**: Improve the mask detection algorithm and performance.
+### Chatbot Page
+![chatbot Page](images/Chatbot.jpg)
+
+### Mask Detection Page
+![maskDetection Page](images/maskDetection.jpg)
+
 
 ## Conclusion
 
